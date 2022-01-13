@@ -17,13 +17,14 @@ import javax.validation.Valid;
 public class MemberController {
 
     private final MemberService memberService;
-
+    //페이지를 이동할때 GetMapping으로 바인딩시켜준다.
     @GetMapping("/members/new")
     public String createForm(Model model){
         model.addAttribute("memberForm", new MemberForm());
         return "members/createMemberForm";
     }
 
+    //html에서 Post방식으로 정보를 보낸걸 여기서 처리한다.
     @PostMapping("/members/new")
     public String create(@Valid MemberForm form, BindingResult result){
 
