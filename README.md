@@ -1,5 +1,9 @@
 # Spring_jpashop
 
+스프링에 대한 기본 개념 및 실무개념 공부
+
+
+
 #메인 화면
 
 <img width="70%" src="https://user-images.githubusercontent.com/86874699/149647993-37cbe2ad-1fae-41a4-b282-e573b38a33e7.png"/>
